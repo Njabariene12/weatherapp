@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("../adds/harp1.png"), no-repeat center center fixed;
+    background-size: cover;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+input{
+    margin-bottom: 20px;
+    width: 300px;
+}
+label{
+    font-size: 20px;
+    color: #473737;
+    font-family: fantasy;
+    font-style: oblique;
+}
+#result{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    margin-left: 42%;
+    align-items: center;
+    align-content: center;
+}
+p{
+    font-size: 40px;
+    color: #000000;
+    font-family: fantasy;
+    font-style: oblique;
+}
+h3{
+    font-size: 40px;
+    color: #000000;
+    font-family: fantasy;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+#img{
+    width: 100%;
+    height: 100%;
+}
